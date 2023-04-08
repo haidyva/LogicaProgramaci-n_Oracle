@@ -1,0 +1,27 @@
+<meta charset="UFT-8">
+
+<h1>¿Alcohol o Gasolina?</h1>
+
+<script>
+
+    var tanque = 40
+    var distancia = 480
+
+    document.write("Si tenemos un carro que tiene un tanque de 40 litros. Usando gasolina y consumiendo todo el tanque se hace un recorrido de 480 kilimetros")
+    document.write("<br>");
+    document.write("<br>");
+    document.write("¿Cuántos kilometos recorre el carro por cada litro de gasolina?" + " " + "<br>" +  "<br>" + "Recorre " + distancia / tanque + " Kilimetros")
+
+    var tanque = 40
+    var distancia = 300
+
+    document.write("<br>");
+    document.write("<br>");
+
+    document.write("Por otro lado, si el carro usa alcohol como combustible, el mismo tanque de 40 litros hace un recorrido de 300 kilómetros.")
+    document.write("<br>");
+    document.write("<br>");
+    document.write("¿Cuántos kilometos recorre el carro por cada litro de alcohol?" + "<br>" + "<br>" + "Recorre " + distancia / tanque + " Kilimetros")
+
+
+</script>
