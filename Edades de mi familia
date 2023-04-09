@@ -1,0 +1,55 @@
+<meta charset="UTF-8">
+
+<script>
+
+    document.write("<h1>Sea bienvenido a las edades de mi familia</h1>");
+
+    function saltarlinea(){
+
+        document.write("<br><br>");
+    }
+
+    function imprimir(frase){
+
+        document.write(frase)
+    }
+    
+    // este código calcula la edades de mi familia
+    
+    var anho = 2023; 
+       
+    saltarlinea();
+    imprimir("Carlos tiene: "+ (anho - 1999) + " años")
+    saltarlinea();  
+    imprimir("Diosa tiene: "+ (anho - 1971) + " años")
+    saltarlinea();
+
+    var edadCarlos = 24
+    var edadDiosa = 52
+
+    var nombre1 = "Carlos"
+    var nombre2 = "Diosa"
+
+    promedio =  (edadCarlos + edadDiosa)/2 
+
+    imprimir("El promedio de las edades de " + nombre1 + " y " + nombre2 + " es: " + Math.round(promedio));
+
+    var anho = 2023; 
+
+    saltarlinea();
+    imprimir("Santiago tiene: "+ (anho - 2017) + " años")
+    saltarlinea();
+    imprimir("Haidy tiene: "+ (anho - 1996) + " años")
+    saltarlinea();
+
+    var edadSantiago = 6
+    var edadHaidy = 27
+
+    var nombre3 = "Santiago"
+    var nombre4 = "Haidy"
+
+    promedio =  (edadSantiago + edadHaidy)/2 
+
+    document.write("El promedio de las edades de " + nombre3 + " y "+ nombre4 + " es: " + Math.round(promedio));
+       
+</script>
