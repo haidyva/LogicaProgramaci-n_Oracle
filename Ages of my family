@@ -12,18 +12,16 @@
     function imprimir(frase){
 
         document.write(frase)
+        saltarlinea()
     }
     
     // este código calcula la edades de mi familia
-    
+
     var anho = 2023; 
        
-    saltarlinea();
     imprimir("Carlos tiene: "+ (anho - 1999) + " años")
-    saltarlinea();  
     imprimir("Diosa tiene: "+ (anho - 1971) + " años")
-    saltarlinea();
-
+   
     var edadCarlos = 24
     var edadDiosa = 52
 
@@ -36,12 +34,9 @@
 
     var anho = 2023; 
 
-    saltarlinea();
     imprimir("Santiago tiene: "+ (anho - 2017) + " años")
-    saltarlinea();
     imprimir("Haidy tiene: "+ (anho - 1996) + " años")
-    saltarlinea();
-
+    
     var edadSantiago = 6
     var edadHaidy = 27
 
